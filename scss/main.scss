@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "reset";
+
+
+
+.container {
+    width: 1204px;
+    margin:auto;
+}
+
+.header-content {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 41px;
+    .logo {
+        width: 97px;
+        height: 59px;
+    }
+    .nav-list {
+        font-size: 20px;
+        font-family: "DM Sans", sans-serif;
+        line-height: ;
+        display: flex;
+        column-gap: 54px;
+        li {
+            a{
+                color:rgba(102, 102, 102, 1);
+            }
+            
+        }
+    }
+
+}
+.nav-list {
+    display: flex;
+}
+.right-header {
+    display: flex;
+    align-items: center;
+    column-gap: 51px;
+    
+}
+.social-links{
+    display: flex;
+    column-gap: 20px;
+}
+.burger-menu {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "responsive";
+
