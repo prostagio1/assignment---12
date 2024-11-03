@@ -2,4 +2,35 @@
     .right-header {
         display: none;
     }
+    .burger-menu {
+        display: block;
+        margin-right: 40px;
+    }
+    .header-content {
+        .logo {
+            margin-left: 20px;
+        }
+    }
+}
+@media (max-width:900px){
+    .header-content {
+        .nav-list {
+            font-size:13px;
+            column-gap: 45px;
+        }
+        .logo {
+            margin-left: 20px;
+        }
+    }
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+    .projects-content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
 }

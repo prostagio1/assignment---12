@@ -1,0 +1,52 @@
+.container {
+    width: 1204px;
+    max-width: 100%;
+    margin:auto;
+}
+
+.header-content {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 41px;
+    border: 2px solid red;
+    .logo {
+        width: 97px;
+        height: 59px;
+    }
+    .nav-list {
+        font-size: 20px;
+        font-family: "DM Sans", sans-serif;
+        // line-height: ;
+        display: flex;
+        column-gap: 54px;
+        li {
+            a{
+                color:rgba(102, 102, 102, 1);
+            }
+            
+        }
+    }
+
+}
+.nav-list {
+    display: flex;
+}
+.right-header {
+    display: flex;
+    align-items: center;
+    column-gap: 51px;
+    
+}
+.social-links{
+    display: flex;
+    column-gap: 20px;
+}
+.burger-menu {
+    height: 25px;
+    width:25px;
+    display: none;
+}
+
+
